@@ -17,15 +17,11 @@ int main(){
 		for(j=i+1;j<num;j++){
 			if(arreglo[j]<arreglo[i]){
 				int aux=0;
-                aux = arreglo[j];
+                		aux = arreglo[j];
 				arreglo[j] = arreglo[i];
 				arreglo[i] = aux;	
 			}
 		}	
 	}
-	
-	printf("Numeros ordenados: \n");
-	for(i=0;i<num;i++){
-		printf("%d \n",arreglo[i]);
 	}
 }
